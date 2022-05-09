@@ -10,25 +10,7 @@
           title="Company"
           class="inline-flex items-center"
         >
-          <svg
-            class="w-8 text-blue-500"
-            viewBox="0 0 24 24"
-            stroke-linejoin="round"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-miterlimit="10"
-            stroke="currentColor"
-            fill="none"
-          >
-            <rect x="3" y="1" width="7" height="12"></rect>
-            <rect x="3" y="17" width="7" height="6"></rect>
-            <rect x="14" y="1" width="7" height="6"></rect>
-            <rect x="14" y="11" width="7" height="12"></rect>
-          </svg>
-          <span
-            class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase"
-            >Company</span
-          >
+          <NuxtImg class="h-12" src="logo.svg" />
         </a>
         <div class="mt-6 lg:max-w-sm">
           <p class="text-sm text-gray-800">
@@ -49,7 +31,7 @@
             href="tel:850-123-5021"
             aria-label="Our phone"
             title="Our phone"
-            class="transition-colors duration-300 text-blue-500 hover:text-deep-purple-800"
+            class="transition-colors duration-300 text-blue-clever-light hover:text-deep-purple-800"
             >850-123-5021</a
           >
         </div>
@@ -59,7 +41,7 @@
             href="mailto:info@lorem.mail"
             aria-label="Our email"
             title="Our email"
-            class="transition-colors duration-300 text-blue-500 hover:text-deep-purple-800"
+            class="transition-colors duration-300 text-blue-clever-light hover:text-deep-purple-800"
             >info@lorem.mail</a
           >
         </div>
@@ -71,7 +53,7 @@
             rel="noopener noreferrer"
             aria-label="Our address"
             title="Our address"
-            class="transition-colors duration-300 text-blue-500 hover:text-deep-purple-800"
+            class="transition-colors duration-300 text-blue-clever-light hover:text-deep-purple-800"
           >
             312 Lovely Street, NY
           </a>
@@ -84,7 +66,7 @@
         <div class="flex items-center mt-1 space-x-3">
           <a
             href="/"
-            class="text-gray-500 transition-colors duration-300 hover:text-blue-500"
+            class="text-gray-500 transition-colors duration-300 hover:text-blue-clever-light"
           >
             <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
               <path
@@ -94,7 +76,7 @@
           </a>
           <a
             href="/"
-            class="text-gray-500 transition-colors duration-300 hover:text-blue-500"
+            class="text-gray-500 transition-colors duration-300 hover:text-blue-clever-light"
           >
             <svg viewBox="0 0 30 30" fill="currentColor" class="h-6">
               <circle cx="15" cy="15" r="4"></circle>
@@ -105,7 +87,7 @@
           </a>
           <a
             href="/"
-            class="text-gray-500 transition-colors duration-300 hover:text-blue-500"
+            class="text-gray-500 transition-colors duration-300 hover:text-blue-clever-light"
           >
             <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
               <path
@@ -132,21 +114,21 @@
         <li>
           <a
             href="/"
-            class="text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500"
+            class="text-sm text-gray-600 transition-colors duration-300 hover:text-blue-clever-light"
             >F.A.Q</a
           >
         </li>
         <li>
           <a
             href="/"
-            class="text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500"
+            class="text-sm text-gray-600 transition-colors duration-300 hover:text-blue-clever-light"
             >Privacy Policy</a
           >
         </li>
         <li>
           <a
             href="/"
-            class="text-sm text-gray-600 transition-colors duration-300 hover:text-blue-500"
+            class="text-sm text-gray-600 transition-colors duration-300 hover:text-blue-clever-light"
             >Terms &amp; Conditions</a
           >
         </li>
